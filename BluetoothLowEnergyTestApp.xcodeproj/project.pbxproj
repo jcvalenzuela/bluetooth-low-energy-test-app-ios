@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC70A92F29908E7B005EB215 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70A92E29908E7B005EB215 /* ListRowView.swift */; };
+		AC70A93229908EBE005EB215 /* BluetoothDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70A93129908EBE005EB215 /* BluetoothDeviceModel.swift */; };
+		AC7B88B4298CA15200F2A288 /* BluetoothLowEnergyTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B88B3298CA15200F2A288 /* BluetoothLowEnergyTestAppApp.swift */; };
+		AC7B88B6298CA15200F2A288 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B88B5298CA15200F2A288 /* ContentView.swift */; };
+		AC7B88B8298CA15300F2A288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7B88B7298CA15300F2A288 /* Assets.xcassets */; };
+		AC7B88BB298CA15300F2A288 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7B88BA298CA15300F2A288 /* Preview Assets.xcassets */; };
+		AC7B88C3298CB9CE00F2A288 /* BluetoothScanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B88C2298CB9CE00F2A288 /* BluetoothScanningView.swift */; };
+		AC7B88C5298CBA3E00F2A288 /* BluetoothOperationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B88C4298CBA3E00F2A288 /* BluetoothOperationView.swift */; };
+		AC8C40AD298CD6F500CE00F3 /* BluetoothCommunicationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C40AC298CD6F500CE00F3 /* BluetoothCommunicationViewModel.swift */; };
+		AC8C40B0298CFD8700CE00F3 /* BluetoothDeviceUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C40AF298CFD8700CE00F3 /* BluetoothDeviceUUID.swift */; };
+		ACB4B42029921A4C00735D09 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB4B41F29921A4B00735D09 /* Extensions.swift */; };
+		ACB4B42229921E2A00735D09 /* EnvironmentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB4B42129921E2A00735D09 /* EnvironmentCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC70A92E29908E7B005EB215 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		AC70A93129908EBE005EB215 /* BluetoothDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothDeviceModel.swift; sourceTree = "<group>"; };
+		AC7B88B0298CA15200F2A288 /* BluetoothLowEnergyTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothLowEnergyTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7B88B3298CA15200F2A288 /* BluetoothLowEnergyTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothLowEnergyTestAppApp.swift; sourceTree = "<group>"; };
+		AC7B88B5298CA15200F2A288 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC7B88B7298CA15300F2A288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC7B88BA298CA15300F2A288 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC7B88C2298CB9CE00F2A288 /* BluetoothScanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothScanningView.swift; sourceTree = "<group>"; };
+		AC7B88C4298CBA3E00F2A288 /* BluetoothOperationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothOperationView.swift; sourceTree = "<group>"; };
+		AC8C40AC298CD6F500CE00F3 /* BluetoothCommunicationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothCommunicationViewModel.swift; sourceTree = "<group>"; };
+		AC8C40AF298CFD8700CE00F3 /* BluetoothDeviceUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothDeviceUUID.swift; sourceTree = "<group>"; };
+		ACB4B41F29921A4B00735D09 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		ACB4B42129921E2A00735D09 /* EnvironmentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC7B88AD298CA15200F2A288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC70A93029908EA9005EB215 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC70A93129908EBE005EB215 /* BluetoothDeviceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC7B88A7298CA15200F2A288 = {
+			isa = PBXGroup;
+			children = (
+				AC7B88B2298CA15200F2A288 /* BluetoothLowEnergyTestApp */,
+				AC7B88B1298CA15200F2A288 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC7B88B1298CA15200F2A288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC7B88B0298CA15200F2A288 /* BluetoothLowEnergyTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC7B88B2298CA15200F2A288 /* BluetoothLowEnergyTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				AC70A93029908EA9005EB215 /* Model */,
+				AC8C40AE298CFD6E00CE00F3 /* Common */,
+				AC8C40AB298CD20400CE00F3 /* ViewModel */,
+				AC7B88C1298CB9A900F2A288 /* View */,
+				AC7B88B3298CA15200F2A288 /* BluetoothLowEnergyTestAppApp.swift */,
+				AC7B88B5298CA15200F2A288 /* ContentView.swift */,
+				AC7B88B7298CA15300F2A288 /* Assets.xcassets */,
+				AC7B88B9298CA15300F2A288 /* Preview Content */,
+				ACB4B41F29921A4B00735D09 /* Extensions.swift */,
+			);
+			path = BluetoothLowEnergyTestApp;
+			sourceTree = "<group>";
+		};
+		AC7B88B9298CA15300F2A288 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC7B88BA298CA15300F2A288 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC7B88C1298CB9A900F2A288 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC7B88C2298CB9CE00F2A288 /* BluetoothScanningView.swift */,
+				AC7B88C4298CBA3E00F2A288 /* BluetoothOperationView.swift */,
+				AC70A92E29908E7B005EB215 /* ListRowView.swift */,
+				ACB4B42129921E2A00735D09 /* EnvironmentCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC8C40AB298CD20400CE00F3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C40AC298CD6F500CE00F3 /* BluetoothCommunicationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AC8C40AE298CFD6E00CE00F3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C40AF298CFD8700CE00F3 /* BluetoothDeviceUUID.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC7B88AF298CA15200F2A288 /* BluetoothLowEnergyTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7B88BE298CA15300F2A288 /* Build configuration list for PBXNativeTarget "BluetoothLowEnergyTestApp" */;
+			buildPhases = (
+				AC7B88AC298CA15200F2A288 /* Sources */,
+				AC7B88AD298CA15200F2A288 /* Frameworks */,
+				AC7B88AE298CA15200F2A288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothLowEnergyTestApp;
+			productName = BluetoothLowEnergyTestApp;
+			productReference = AC7B88B0298CA15200F2A288 /* BluetoothLowEnergyTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC7B88A8298CA15200F2A288 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AC7B88AF298CA15200F2A288 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = AC7B88AB298CA15200F2A288 /* Build configuration list for PBXProject "BluetoothLowEnergyTestApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC7B88A7298CA15200F2A288;
+			productRefGroup = AC7B88B1298CA15200F2A288 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC7B88AF298CA15200F2A288 /* BluetoothLowEnergyTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC7B88AE298CA15200F2A288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7B88BB298CA15300F2A288 /* Preview Assets.xcassets in Resources */,
+				AC7B88B8298CA15300F2A288 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC7B88AC298CA15200F2A288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7B88C3298CB9CE00F2A288 /* BluetoothScanningView.swift in Sources */,
+				ACB4B42029921A4C00735D09 /* Extensions.swift in Sources */,
+				AC70A92F29908E7B005EB215 /* ListRowView.swift in Sources */,
+				AC8C40B0298CFD8700CE00F3 /* BluetoothDeviceUUID.swift in Sources */,
+				ACB4B42229921E2A00735D09 /* EnvironmentCardView.swift in Sources */,
+				AC7B88C5298CBA3E00F2A288 /* BluetoothOperationView.swift in Sources */,
+				AC70A93229908EBE005EB215 /* BluetoothDeviceModel.swift in Sources */,
+				AC7B88B6298CA15200F2A288 /* ContentView.swift in Sources */,
+				AC8C40AD298CD6F500CE00F3 /* BluetoothCommunicationViewModel.swift in Sources */,
+				AC7B88B4298CA15200F2A288 /* BluetoothLowEnergyTestAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC7B88BC298CA15300F2A288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC7B88BD298CA15300F2A288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC7B88BF298CA15300F2A288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BluetoothLowEnergyTestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = AT492W54AU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Please allow bluetooth to use";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Please allow bluetooth to discover peripherals";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carkeytestapp.BluetoothLowEnergyTestApp.02032023;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC7B88C0298CA15300F2A288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BluetoothLowEnergyTestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = AT492W54AU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Please allow bluetooth to use";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Please allow bluetooth to discover peripherals";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carkeytestapp.BluetoothLowEnergyTestApp.02032023;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC7B88AB298CA15200F2A288 /* Build configuration list for PBXProject "BluetoothLowEnergyTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7B88BC298CA15300F2A288 /* Debug */,
+				AC7B88BD298CA15300F2A288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC7B88BE298CA15300F2A288 /* Build configuration list for PBXNativeTarget "BluetoothLowEnergyTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7B88BF298CA15300F2A288 /* Debug */,
+				AC7B88C0298CA15300F2A288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC7B88A8298CA15200F2A288 /* Project object */;
+}
